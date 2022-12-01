@@ -2,7 +2,7 @@
 /*
  * Plugin Name: Stripe Payment Gateway By Syed Tirmizi
  * Plugin URI: http://tirmizi.net/
- * Description: Custom Order from website kamagrabestellen.shop
+ * Description: Custom Order manage from other Woo Website. 
  * Version: 1.0.0
  * Author: Syed Muzaffar Tirmizi
  * Author URI: https://www.upwork.com/freelancers/syedtirmizi

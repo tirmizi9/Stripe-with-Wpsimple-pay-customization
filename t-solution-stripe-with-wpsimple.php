@@ -111,6 +111,7 @@ function mjt_get_post_id_by_meta_key_orderid($order_id){
 // Start session on init hook.
 add_action( 'init', 'mjt_order_data_init_session' );
 
+/* use form from Plugin wp simple pay : https://wordpress.org/plugins/stripe/ */
  add_action('wp_footer','mjt_get_order_parameter_script');
  function mjt_get_order_parameter_script(){
 	  if(is_home() || Is_front_page() ){
@@ -162,7 +163,7 @@ add_action( 'init', 'mjt_order_data_init_session' );
    }
  }
  
- 
+ /* script change page id at line number 168 , 173 */
 add_action( 'init', 'mjt_order_payment_confirmation' );
 function mjt_order_payment_confirmation(){
 	if( is_page(2580) || is_page(2581) ){
